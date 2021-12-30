@@ -17,9 +17,7 @@
 I have good interpersonal skills. I'm an excellent team worker and very willing to learn and develop new skills.
 
 ***
-
 ## My skills
-
  * HTML
  * CSS/SCSS/BEM
  * JScript
