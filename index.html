@@ -6,64 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>CV: Zozulya Anna</title>
 </head>
 <body>
     <div class="container">
+
         <header>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__list-item">About</li>
-                    <li class="nav__list-item">Code</li>
-                    <li class="nav__list-item">Skills</li>
-                </ul>
-            </nav>
+            <div class="person">
+                <div class="person__image">
+                    <div class="person__image-img"></div>
+                </div>
+                <div class="person__name">
+                    <h1>Anna Zozulya</h1>
+                    <h3>Junior Front-End Developer</h3>
+                </div>
+            </div>            
         </header>
+
         <div class="page">
-            <aside class="person">
+            <aside>
+                <section class="aside__section">
+                    <h2>Info</h2>
+                    <div class="info">                        
+                        <h4>Location</h4>
+                        <p>Limasol, Cyprus</p>
+                        
+                        <h4>Email</h4>
+                        <p><a href="mailto:zozulya.anna@gmail.com">zozulya.anna@gmail.com</a></p>                        
+                        
+                        <h4>Discord</h4>
+                        <p>azozulya</p>
 
-                <div class="person__image"></div>                
-                <h1>Anna zozulya</h1>
-                <h3>Junior Front-End Developer</h3>
-                <ul class="person__contacts">
-                    <li class="person__contacts-item"><a href="mailto:zozulya.anna@gmail.com">zozulya.anna@gmail.com</a></li>
-                    <li class="person__contacts-item">
-                        Discord:
-                        azozulya</li>
-                    <li class="person__contacts-item"><a href="https://github.com/azozulya">github.com/azozulya</a></li>
-                    <li class="person__contacts-item"><a href="https://www.codewars.com/users/bbbom@mail.ru">codewars</a></li>
-                </ul>
-            
-
-
-
+                        <h4>GitHub</h4>
+                        <p><a href="https://github.com/azozulya">github.com/azozulya</a></p>
+                        
+                        <h4>Codewars</h4>
+                        <p><a href="https://www.codewars.com/users/bbbom@mail.ru">codewars</a></p>                        
+                    </div>
+                </section>
             </aside>
             <main>  
+                
                 <section class="section">
-                    <h2 class="title">skills</h2>
-                    <ul id="skills" class="main-text">
-                      <li>HTML &amp; CSS</li>
-                      <li>JS</li>
-                      <li>React</li>
-                      <li>Figma</li>
-                      <li>Git</li>
-                      <li>Photoshop</li>
-                    </ul>
-                  </section>
-                <section>
-                    <h2>Work Experience</h2>
-                    I have good interpersonal skills. I'm an excellent team worker and very willing to learn and develop new skills.
+                    <h2>About me</h2>
+                    <p>I used to be an HTML master. Then I had a break for several years. Now I want to return to IT as a front-end developer. I am a great team worker. I really want to learn and develop new skills. </p>
                 </section>
 
+                <section class="section">
+                    <h2>Skills</h2>
+                    <ul class="list">
+                      <li class="list__item">HTML &amp; CSS</li>
+                      <li class="list__item">JS</li>
+                      <li class="list__item">React</li>
+                      <li class="list__item">Figma</l class="list__item"i>
+                      <li class="list__item">Git</li>
+                      <li class="list__item">Photoshop</li>
+                    </ul>
+                </section>                
+
+                <section class="section">
+                    <h2>Education</h2>
+                    <ul class="list">
+                        <li class="list__item">HTML and CSS Tutorials on w3schools</li>
+                        <li class="list__item">JavaScript Manual on learnjavascript.ru</li>
+                        <li class="list__item"><a href="https://learn.javascript.ru/courses/js-20200928/bbbom/en/certificate.jpg" title="Sertificate">JavaScript/​DOM/​UI for programmers</a></li>
+                        <li class="list__item">RS Schools «JavaScript/Front-end. Stage 0»</li>                        
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Code example</h2>
+                    <pre>
+                        <code>
+function pigIt(str){
+    return str.split(" ").map( word => 
+        word.search(/[A-Za-z]/g) !== -1 ? 
+        (word.substring(1,word.length) + word.substring(0,1) + 'ay') : 
+        word
+    ).join(' ');
+}
+                        </code>
+                    </pre>
+                </section>
+
+                <section class="section">
+                    <h2>Languages</h2>
+                    My level of English is A2
+                </section>
             </main>
         </div>
         <footer class="footer">
+            <div class="githublink">
+                <a class="my-github" href="https://github.com/azozulya">                    
+                    Visit my GitHub
+                </a>
+                <p class="copyright">© 2022</p>
+            </div>
+            
             <div class="rslogo">
-
-                <img src="rs.svg" alt="Rs school" width="100" class="rslogo__img"/>
+                <a href="https://rs.school/js/" title="Go to Rs school"><img src="rs.svg" alt="Rs school" width="100" class="rslogo__img"/></a>                
             </div>
         </footer>
     </div>
