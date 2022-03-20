@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV: Zozulya Anna</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="person">
+                <div class="person__image">
+                    <img src="./img/avatar.jpg" alt="Photo" class="person__image-img">
+                </div>
+                <div class="person__name">
+                    <h1>Anna Zozulya</h1>
+                    <h3>Junior Front-End Developer</h3>
+                </div>
+            </div>            
+        </header>
+
+        <div class="page">
+            <aside>
+                <section class="aside__section">
+                    <h2>Info</h2>
+                    <div class="info">                        
+                        <h4>Location</h4>
+                        <p>Limassol, Cyprus</p>
+                        
+                        <h4>Email</h4>
+                        <p><a href="mailto:zozulya.anna@gmail.com">zozulya.anna@gmail.com</a></p>                        
+                        
+                        <h4>Discord</h4>
+                        <p>azozulya</p>
+
+                        <h4>GitHub</h4>
+                        <p><a href="https://github.com/azozulya">azozulya</a></p>
+                        
+                        <h4>Codewars</h4>
+                        <p><a href="https://www.codewars.com/users/bbbom@mail.ru">azozulya</a></p>                        
+                    </div>
+                </section>
+            </aside>
+            <main>  
+                
+                <section class="section">
+                    <h2>About me</h2>
+                    <p>I started my career as an HTML coder with minimal skills. I was self-taught and excelled at it. I have worked with many
+                    website layouts.
+                    A great interest in programming led me to a large team project in my city, where I continued to work independently,
+                    learning jQuery and native jscript, participated in the discussion of the implementation of new features, code
+                    optimization.
+                    Then there were several more projects and teams. </p>
+                    <p>Five years ago, I took a break and devoted myself to my family. Now I
+                    want to get back to work as a front-end developer. To do this, I need to update my knowledge and get new ones. That's
+                    why I'm here!</p>
+                </section>
+
+                <section class="section">
+                    <h2>Skills</h2>
+                    <ul class="list">
+                      <li class="list__item">HTML &amp; CSS / SCSS &amp; JScript</li>
+                      <li class="list__item">React</li>
+                      <li class="list__item">Git</li>
+                      <li class="list__item">Figma/  Photoshop</li>
+                    </ul>
+                </section>                
+
+                <section class="section">
+                    <h2>Education</h2>
+                    <ul class="list">
+                        <li class="list__item">HTML and CSS Tutorials on w3schools</li>
+                        <li class="list__item">JavaScript Manual on learnjavascript.ru</li>
+                        <li class="list__item">
+                            <a 
+                                href="https://learn.javascript.ru/courses/js-20200928/bbbom/en/certificate.jpg" 
+                                title="The certificate will open in a new window" 
+                                target="_blank">JavaScript/​DOM/​UI for programmers</a>
+                        </li>
+                        <li class="list__item">
+                            RSSchool «<a 
+                                        href="https://app.rs.school/certificate/0w9jz0zj" 
+                                        title="The certificate will open in a new window" 
+                                        target="_blank">JavaScript/Front-end. Stage 0</a>».
+                        </li>                        
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Code example</h2>
+                    <pre>
+                        <code>
+function pigIt(str){
+    return str.split(" ").map( word => 
+        word.search(/[A-Za-z]/g) !== -1 ? 
+        (word.substring(1,word.length) + word.substring(0,1) + 'ay') : 
+        word
+    ).join(' ');
+}
+                        </code>
+                    </pre>
+                </section>
+
+                <section class="section">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li><b>Russian</b> - native speaker</li>
+                        <li><b>English</b>- A2 (B1 in process…)</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="githublink">
+                <a class="my-github" href="https://github.com/azozulya">                    
+                    Visit my GitHub
+                </a>
+                <p class="copyright">© 2022</p>
+            </div>
+            
+            <div class="rslogo">
+                <a href="https://rs.school/js/" title="Go to Rs school"><img src="./img/rs.svg" alt="Rs school" width="100" class="rslogo__img"/></a>                
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
